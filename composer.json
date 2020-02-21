@@ -28,6 +28,7 @@
     "jakub-onderka/php-parallel-lint": "^1",
     "phpstan/phpstan": "^0.12",
     "oxid-esales/oxideshop-ce": "6.5",
+    "oxid-esales/oxideshop-unified-namespace-generator": "^2.0",
     "friendsofphp/php-cs-fixer": "^2.16"
   },
   "autoload": {
@@ -42,8 +43,8 @@
     "fix:cbf": "phpcbf",
     "fix:fixer": "php-cs-fixer fix",
     "fix": [
-        "@fix:cbf",
-        "@fix:fixer"
+      "@fix:cbf",
+      "@fix:fixer"
     ],
     "test:lint": "phpcs",
     "test:lint-fixer": "php-cs-fixer fix --dry-run",
